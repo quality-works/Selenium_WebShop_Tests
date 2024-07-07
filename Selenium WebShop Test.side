@@ -1,0 +1,168 @@
+{
+  "id": "544abc1c-469a-4359-82e6-3c4579e9a2cc",
+  "version": "2.0",
+  "name": "Selenium Test",
+  "url": "https://qentinelqi.github.io/shop/",
+  "tests": [{
+    "id": "0da160b6-1d44-41be-860b-bcd83ab001db",
+    "name": "Web Shop - Selenium",
+    "commands": [{
+      "id": "5c37ffb7-88ba-4e54-aca1-3ee39bdc33ba",
+      "comment": "",
+      "command": "open",
+      "target": "https://qentinelqi.github.io/shop/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0792427b-759a-4c7d-bb18-e47694b7ebd5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1050",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7b34d235-b502-482d-a8f0-3f8c5ca60dc5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.material-icons",
+      "targets": [
+        ["css=.material-icons", "css:finder"],
+        ["xpath=//i", "xpath:position"],
+        ["xpath=//i[contains(.,'shopping_cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7eaf091b-fe1b-4262-a2c6-f88fb5488211",
+      "comment": "",
+      "command": "click",
+      "target": "css=.snipcart-modal__close-title",
+      "targets": [
+        ["css=.snipcart-modal__close-title", "css:finder"],
+        ["xpath=//div[@id='snipcart']/div/div/header/button/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'Continue shopping')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8cae5691-b7b4-4c42-ab5f-c3a6a5d65a46",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Bumble the Elephant",
+      "targets": [
+        ["linkText=Bumble the Elephant", "linkText"],
+        ["css=li:nth-child(2) > .product-details a", "css:finder"],
+        ["xpath=//a[contains(text(),'Bumble the Elephant')]", "xpath:link"],
+        ["xpath=//div[@id='products']/section/div/ul/li[2]/div[2]/h4/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/shop/products/elephant/')])[3]", "xpath:href"],
+        ["xpath=//li[2]/div[2]/h4/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Bumble the Elephant')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1862fa2c-9d05-4c9e-a968-480200c5bf06",
+      "comment": "",
+      "command": "click",
+      "target": "css=.snipcart-add-item",
+      "targets": [
+        ["css=.snipcart-add-item", "css:finder"],
+        ["xpath=//div[@id='add']/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add to cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dfaa827b-c9ec-42ac-875a-1553c881b5b2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.snipcart__button--icon:nth-child(3) > .snipcart__icon",
+      "targets": [
+        ["css=.snipcart__button--icon:nth-child(3) > .snipcart__icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9aa211c-b21f-44ea-805e-785145af1a6a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.snipcart__button--no-border:nth-child(1) > .snipcart__icon",
+      "targets": [
+        ["css=.snipcart__button--no-border:nth-child(1) > .snipcart__icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "42795c49-ef85-41bd-93ed-f8a3268b0846",
+      "comment": "",
+      "command": "click",
+      "target": "name=Size",
+      "targets": [
+        ["name=Size", "name"],
+        ["css=.snipcart-item-custom-fields__field:nth-child(1) .snipcart-dropdown-custom-field", "css:finder"],
+        ["xpath=//select[@name='Size']", "xpath:attributes"],
+        ["xpath=//div[@id='snipcart']/div/div/div/section/ul/li/div/div/div[2]/div/div[2]/div/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f86eb556-5506-4b7b-80ad-778646c9f8cb",
+      "comment": "",
+      "command": "select",
+      "target": "name=Size",
+      "targets": [],
+      "value": "label=XL"
+    }, {
+      "id": "456b333b-224f-430c-945a-65ee1c32654c",
+      "comment": "",
+      "command": "click",
+      "target": "name=Color",
+      "targets": [
+        ["name=Color", "name"],
+        ["css=.snipcart-item-custom-fields__field:nth-child(2) .snipcart-dropdown-custom-field", "css:finder"],
+        ["xpath=//select[@name='Color']", "xpath:attributes"],
+        ["xpath=//div[@id='snipcart']/div/div/div/section/ul/li/div/div/div[2]/div/div[2]/div/div/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "beedd7d0-ca0f-425b-a007-f53ffa66d996",
+      "comment": "",
+      "command": "select",
+      "target": "name=Color",
+      "targets": [],
+      "value": "label=Green"
+    }, {
+      "id": "5694933f-3260-47e1-9ed2-ea2bd9ec45a1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.snipcart-cart-button",
+      "targets": [
+        ["css=.snipcart-cart-button", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='snipcart']/div/div/div/section/div/div[2]/footer/button", "xpath:idRelative"],
+        ["xpath=//footer/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Checkout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "53f9dac7-84ea-47d5-a60e-703ff1b53878",
+      "comment": "",
+      "command": "click",
+      "target": "css=.snipcart-modal__close-title",
+      "targets": [
+        ["css=.snipcart-modal__close-title", "css:finder"],
+        ["xpath=//div[@id='snipcart']/div/div/header/button/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'Continue shopping')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8b50eb2d-8ac0-4313-ae09-bcba8646a179",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://qentinelqi.github.io/shop/"],
+  "plugins": []
+}
